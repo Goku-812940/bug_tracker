@@ -1,0 +1,80 @@
+
+h1{
+    text-align: center;
+    color: #000000;
+}
+.wrapper{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.card{
+   max-width: 300px;
+    min-height: 250px;
+    background: #f6f6f6;
+    padding: 30px;
+     border-radius: 3px;
+    box-sizing: border-box;
+    color: #000000;
+    margin:20px;
+     box-shadow: rgb(50 50 93 / 25%) 0px 30px 60px -12px, rgb(0 0 0 / 30%) 0px 18px 36px -18px;
+}
+
+.card-title{
+    margin-top: 0;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 1.2px;
+}
+.card-date{
+    color: #6d6d6d;
+    font-size: 13px;
+}
+.card-content{
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    line-height: 1.5;
+}
+.card-btn{
+    all: unset;
+    display: block;
+    margin-left: auto;
+    border: 2px solid #000000;
+    padding: 10px 15px;
+    border-radius: 25px;
+    font-size: 10px;
+    font-weight: 600;
+    transition: all 0.5s;
+    cursor: pointer;
+    letter-spacing: 1.2px;
+}
+.dec{
+    text-decoration: none;
+    color: #000000;
+}
+
+.card-btn:hover{
+   color:#ffffff;
+    background: #1d1d1d;
+}
+
+  
+  .buttons-container {
+   
+    margin-top: 20px;
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  button {
+    background: white;
+    border: solid 2px black;
+    padding: .375em 1.125em;
+    font-size: 1rem;
+  }
+  button:hover{
+    background: rgb(0, 0, 0);
+    color: aliceblue;
+  }

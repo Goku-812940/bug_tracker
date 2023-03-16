@@ -1,0 +1,10 @@
+.center{
+    display: flex;
+    justify-content: center;
+}
+.card{
+    width: 500px;
+}
+button{
+    margin-top: 5px;
+}
