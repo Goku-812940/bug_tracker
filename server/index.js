@@ -11,7 +11,7 @@ const BugModel = require("./model/bugModel");
 app.use(express.json());
 app.use(cors());
 
-
+const DB_URL= process.env.DB_URL
 const PORT = process.env.PORT || 5001 ;
 
 
