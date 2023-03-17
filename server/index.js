@@ -78,10 +78,6 @@ app.delete("/deleteBug/:id", async (req, res) => {
   res.send("delete");
 });
 
-if (process.env.NODE_ENV == "production"){
-  app.use(express.static("client/build"))
-}
-
 
 app.listen(PORT, () => {
   console.log(`server running on port ${PORT}`);
